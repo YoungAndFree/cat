@@ -13,7 +13,7 @@ include_directories(${Boost_INCLUDE_DIR})
 set(SOURCE_FILES main.cpp
         cat/timer.hpp
         cat/cat_asio_define.hpp
-        cat/cat.h cat/conversion.hpp)
+        cat/cat.h cat/conversion.hpp cat/log.h cat/singleton.hpp cat/singleton_pool.hpp)
 add_executable(cat ${SOURCE_FILES})
 target_link_libraries(cat ${Boost_LIBRARIES})
 if (WIN32)
