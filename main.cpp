@@ -1,11 +1,10 @@
-#include <iostream>
-#include "cat/conversion.hpp"
+
+#include "cat/object_test.h"
+
+
 
 int main()
 {
-    std::string str = "10";
-
-    int num = cat::toInt(str.c_str(), 16);
-    std::cout << num << std::endl;
+    test();
     return 0;
 }

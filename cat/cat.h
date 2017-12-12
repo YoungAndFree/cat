@@ -13,4 +13,8 @@
 #define reverse_foreach BOOST_REVERSE_FOREACH
 #endif
 
+#ifndef interface
+#define interface
+#endif
+
 #endif //CAT_CAT_H
